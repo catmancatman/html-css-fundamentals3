@@ -1,14 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 body {
-    background-color: burlywood;
+    background-color: rgb(235, 194, 145);
     font-family: sans-serif;
+    font-size: 18px;
+    
 }
 h1{
     color: orangered;
+    font-size: 1.5em;
     text-align: center; 
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
 }
 h2 {
     color: brown;
+    font-size: 1.3em;
+    font-weight: 900;
+    text-decoration: underline;
 }
 h3 {
     color: indianred;
+    font-size: 0.9em;
+}
+#pret-vechi {
+    text-decoration: line-through;
+    text-decoration-line: line-through;
+    text-decoration-color: crimson;
+    text-decoration-thickness: 3px;
+    text-decoration-style: dotted;
 }
