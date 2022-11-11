@@ -15,6 +15,7 @@ h1{
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     text-decoration: underline;
+    text-align: center;
 }
 h2 {
     color: brown;
@@ -27,9 +28,55 @@ h3 {
     font-size: 0.9em;
 }
 #pret-vechi {
+    color: orangered;
     text-decoration: line-through;
     text-decoration-line: line-through;
     text-decoration-color: crimson;
     text-decoration-thickness: 3px;
     text-decoration-style: dotted;
+}
+.pret {
+    font-size: 1.2em;
+    color: darkgreen;
+    font-weight: bold;
+}
+img {
+    display: block;
+    margin: auto;
+}
+a {
+    margin: 2em;
+    border-style: double;
+    padding: 1em;
+    width: 190%;
+    height: 5em;
+}
+p {
+    display: inline;
+}
+blockquote{
+    font-size: 1.2em;
+    font-style: italic;
+    color: rgb(160, 69, 42);
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+    border-style: dotted;
+    border-color: steelblue;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 1em;
+    margin-top: 2em;
+    margin-left: 0;
+    width: 60%;
+    height: 5em;
+
+}
+ul {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    list-style-type:'≻';
+    list-style-image: url(≻);
+}
+.imagine{
+    text-align: center;
 }
