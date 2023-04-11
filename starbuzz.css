@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
 html {
     scroll-behavior: smooth;
+    
 }
 body {
     background-color: rgb(235, 194, 145);
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     
 }
 h1{
@@ -62,13 +66,18 @@ blockquote{
     text-decoration-line: underline;
     border-style: dotted;
     border-color: steelblue;
-    border-radius: 10px;
-    padding: 0.5em;
+    border-radius: 20px;
+    padding: 1em;
     margin: 1em;
     margin-top: 2em;
     margin-left: 0;
-    width: 60%;
+    margin-right: 0;
+    margin-bottom: 3em;
+    width: 20em;
     height: 5em;
+    background-color: orange;
+    border-bottom-color: orange;
+  
 
 }
 ul {
