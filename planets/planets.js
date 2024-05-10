@@ -1,0 +1,1 @@
+document.getElementById("redplanet").innerText ="Alien invasion"
